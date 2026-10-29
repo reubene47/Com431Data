@@ -10,7 +10,7 @@ class Stack:
     def pop(self):
         deleted = self.internal_list[-1]
         del self.internal_list[-1]
-        return self.internal_list[-1]
+        return deleted
     
         pass # ends the method when it's empty
 

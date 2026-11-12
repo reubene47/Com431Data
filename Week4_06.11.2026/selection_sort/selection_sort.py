@@ -10,5 +10,6 @@ def SelectionSort(list):
                 lowest_index = j
             elif list[j] > lowest_so_far:
                 continue
-        if lowest_index != i:   
+            # swap lowest value with current value
+        if lowest_index != i:
             list[i], list[lowest_index] = list[lowest_index], list[i]
